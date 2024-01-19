@@ -1,0 +1,23 @@
+{
+    "name": "swiftsmsgh/swiftsmsgh-api-sdk",
+    "description": "PHP SDK for the Swiftsms-GH Bulk SMS API",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "majesty-scofield",
+            "email": "reborndzre@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Swiftsms\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "ext-curl": "*",
+      "ext-json": "*"
+    }
+}
